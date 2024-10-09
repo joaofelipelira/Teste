@@ -1,3 +1,4 @@
+// src/pages/Home.jsx
 const Home = () => (
   <div>
     <h1>Bem-vindo ao PETUNIQUE</h1>

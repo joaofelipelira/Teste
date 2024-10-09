@@ -6,6 +6,7 @@ import Home from './pages/Home';
 import AnimalList from './pages/AnimalList';
 import AnimalForm from './pages/AnimalForm';
 import './App.css';
+import logo from './assets/images/logo.png'
 
 function App() {
   const [count, setCount] = useState(0);
@@ -19,11 +20,11 @@ function App() {
           <Route path="/list" element={<AnimalList />} />
           <Route path="/form" element={<AnimalForm />} />
         </Routes>
-
+        <img src={logo} alt="Logo do aplicativo" />
         <div className="card">
-          <button onClick={() => setCount(count + 1)}>
-            Count is {count}
-          </button>
+          <h2>Contador</h2>
+          <p>Contagem atual: {count}</p>
+          <button onClick={() => setCount(count + 1)}>Incrementar</button>
         </div>
       </div>
       <Footer />

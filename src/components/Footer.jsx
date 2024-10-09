@@ -1,6 +1,7 @@
+// src/components/Footer.jsx
 const Footer = () => (
   <footer>
-    <p>PETUNIQUE © 2024 - Gestão de Saúde Animal</p>
+    <p>PETUNIQUE &copy; 2024 - Gestão de Saúde Animal</p>
   </footer>
 );
 
